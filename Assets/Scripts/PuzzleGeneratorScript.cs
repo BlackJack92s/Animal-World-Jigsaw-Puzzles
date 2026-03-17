@@ -1,58 +1,67 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-public class PuzzleGeneratorScript : MonoBehaviour
-{ 
-    public GameObject[] piecePrefab; 
-    public Sprite puzzle;
-    public GameObject basePuzzle;
 
+public class PuzzleGeneratorScript : MonoBehaviour
+{
+    public GameObject[] piecePrefab;
+    private Sprite puzzle; // Ya no es public, lo traemos del manager
+    public GameObject basePuzzle;
     public TextMeshProUGUI txtTitulo;
+
     void Start()
     {
-        puzzle = MenuManager.instance.puzzleSeleccionado;
+        StartCoroutine(InicializarPuzzle());
+    }
 
-        SpriteRenderer baseRenderer = basePuzzle.GetComponent<SpriteRenderer>();
-        if (baseRenderer != null)
+    IEnumerator InicializarPuzzle()
+    {
+        // 1. Esperamos un frame para asegurar que el MenuManager se asentó
+        yield return null;
+
+        if (DatosPartida.Instance != null && DatosPartida.Instance.puzzleSeleccionado != null)
         {
-            baseRenderer.sprite = puzzle;
-        }
-        if (MenuManager.instance.dificultadEstado)
-        {
-            txtTitulo.text = "Level : Easy";
-            basePuzzle.SetActive(true);
+            puzzle = DatosPartida.Instance.puzzleSeleccionado;
+
+            // Configurar la base
+            SpriteRenderer baseRenderer = basePuzzle.GetComponent<SpriteRenderer>();
+            if (baseRenderer != null)
+            {
+                baseRenderer.sprite = puzzle;
+            }
+
+            // Configurar textos y dificultad
+            if (DatosPartida.Instance.dificultadEstado)
+            {
+                txtTitulo.text = "Level : Easy";
+                basePuzzle.SetActive(true);
+            }
+            else
+            {
+                txtTitulo.text = "Level : Hard";
+                basePuzzle.SetActive(false);
+            }
+
+            GeneratePuzzle();
         }
         else
         {
-            txtTitulo.text = "Level : Hard";
-            basePuzzle.SetActive(false);
+            Debug.LogError("Error: El sprite no llegó del MenuManager o es nulo.");
         }
-        GeneratePuzzle();
     }
-     
+
     void GeneratePuzzle()
     {
         foreach (GameObject piece in piecePrefab)
-        { 
-            Transform childTransform = piece.transform.Find("PuzzleAdv"); 
+        {
+            Transform childTransform = piece.transform.Find("PuzzleAdv");
             if (childTransform != null)
-            { 
-                SpriteRenderer sr = childTransform.GetComponent<SpriteRenderer>(); 
+            {
+                SpriteRenderer sr = childTransform.GetComponent<SpriteRenderer>();
                 if (sr != null)
                 {
                     sr.sprite = puzzle;
                 }
-                else
-                {
-                    Debug.LogWarning($"El hijo 'PuzzleAdv' en {piece.name} no tiene un SpriteRenderer.");
-                }
-            }
-            else
-            {
-                Debug.LogWarning($"No se encontró el hijo 'PuzzleAdv' en el objeto: {piece.name}");
             }
         }
     }

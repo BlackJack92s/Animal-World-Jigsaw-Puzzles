@@ -2,7 +2,10 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.SceneManagement;
+using UnityEngine.U2D;
 using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
@@ -27,6 +30,9 @@ public class MenuManager : MonoBehaviour
     public Sprite puzzleSeleccionado;
     public GameObject panelDificultad;
     public bool dificultadEstado;
+
+    private AsyncOperationHandle<Sprite> handlePuzzleActivo;
+
     void Awake()
     {
         string idGuardado = "unlocked_Agapornis_0";
@@ -36,23 +42,30 @@ public class MenuManager : MonoBehaviour
             PlayerPrefs.Save(); 
         }
 
-        if (instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
+        //if (instance != null)
+        //{
+        //    Destroy(gameObject);
+        //    return;
+        //}
         instance = this;
+        //DontDestroyOnLoad(gameObject);
     }
     void Start()
     {
+        InicializarMenu();
+         
+    }
+    public void InicializarMenu()
+    {
+        // Limpiar barras anteriores para no duplicar
+        foreach (Transform hijo in letrasContainer)
+            Destroy(hijo.gameObject);
+
         CrearBarraDeLetras();
 
         if (todasLasSecciones.Count > 0)
-        {
             CambiarSeccion(todasLasSecciones[0]);
-        }
     }
-
     void CrearBarraDeLetras()
     {
         foreach (SeccionData s in todasLasSecciones)
@@ -64,10 +77,6 @@ public class MenuManager : MonoBehaviour
 
     public void CambiarSeccion(SeccionData nuevaSeccion)
     { 
-        foreach (Transform hijo in gridContainer)
-        {
-            Destroy(hijo.gameObject);
-        } 
         foreach (AnimalData animal in nuevaSeccion.animalesDeEstaLetra)
         {
             GameObject btnObj = Instantiate(animalButtonPrefab, gridContainer);
@@ -97,11 +106,14 @@ public class MenuManager : MonoBehaviour
 
     }
 
-    public void SeleccionarPuzzle(Image image)
+    public void SeleccionarPuzzle(Sprite sprite, AsyncOperationHandle<Sprite> handle)
     {
 
-        puzzleSeleccionado = image.sprite;
+        if (handlePuzzleActivo.IsValid())
+            Addressables.Release(handlePuzzleActivo);
 
+        puzzleSeleccionado = sprite;
+        handlePuzzleActivo = handle;
         panelDificultad.SetActive(!panelDificultad.activeSelf);
         //SceneManager.LoadScene("NivelPuzzle"); // tu escena del puzzle
     }
@@ -109,18 +121,18 @@ public class MenuManager : MonoBehaviour
     {
         panelDificultad.SetActive(!panelDificultad.activeSelf);
     }
-    public void ElegirDificultad(bool estado)
-    {
-        dificultadEstado = estado; 
-        SceneManager.LoadScene("NivelPuzzle");
-    }
+    //public void ElegirDificultad(bool estado)
+    //{
+    //    dificultadEstado = estado; 
+    //    SceneManager.LoadScene("NivelPuzzle");
+    //}
     public void DificultadFacil()
     {
-        ElegirDificultad(true);
+        DatosPartida.Instance.ElegirDificultad(true);
     }
     public void DificultadDificil()
     {
-        ElegirDificultad(false);
+        DatosPartida.Instance.ElegirDificultad(false);
     }
     public void volverPanelPrincipal()
     {

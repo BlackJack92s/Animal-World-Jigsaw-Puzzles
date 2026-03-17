@@ -15,6 +15,7 @@ public class PuzzleItemButton : MonoBehaviour
     private int indicePuzzle;
     private int precio;
     private bool desbloqueado;
+    private bool estaSeleccionado = false;
 
     // Guardamos el handle para liberar la memoria correctamente
     private AsyncOperationHandle<Sprite> handleCarga;
@@ -71,7 +72,13 @@ public class PuzzleItemButton : MonoBehaviour
         if (!desbloqueado) return;
 
         if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
-        if (MenuManager.instance != null) MenuManager.instance.SeleccionarPuzzle(imagenPuzzle);
+        if (MenuManager.instance != null)
+        {
+            estaSeleccionado = true;
+            // Pasamos el sprite del handle, NO el del Image component
+            DatosPartida.Instance.SeleccionarPuzzle(handleCarga.Result, handleCarga);
+        }
+        //if (MenuManager.instance != null) MenuManager.instance.SeleccionarPuzzle(imagenPuzzle);
     }
 
     public void ComprarPuzzle()
@@ -91,7 +98,7 @@ public class PuzzleItemButton : MonoBehaviour
     // 3. CRÍTICO: Liberar la memoria cuando el botón desaparece (ej. al volver al menú principal)
     private void OnDestroy()
     {
-        if (handleCarga.IsValid())
+        if (!estaSeleccionado && handleCarga.IsValid())
         {
             Addressables.Release(handleCarga);
         }

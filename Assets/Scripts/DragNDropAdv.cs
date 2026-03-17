@@ -18,7 +18,7 @@ public class DragNDropAdv : MonoBehaviour
     public TextMeshProUGUI txtTitulo;
     void Start()
     {
-        if (MenuManager.instance.dificultadEstado)
+        if (DatosPartida.Instance.dificultadEstado)
         {
             txtTitulo.text = "Awesome! You received " + monedasEasy + " coins!"; 
         }
@@ -75,7 +75,7 @@ public class DragNDropAdv : MonoBehaviour
     }
     public void WinGotoMenu()
     {
-        if (MenuManager.instance.dificultadEstado)
+        if (DatosPartida.Instance.dificultadEstado)
         {
             GameManager.Instance.GanarMonedas(monedasEasy);
         }
@@ -83,7 +83,17 @@ public class DragNDropAdv : MonoBehaviour
         {
             GameManager.Instance.GanarMonedas(monedasHard);
         }
-        
+
+       // SceneManager.sceneLoaded += OnMenuCargado;
         SceneManager.LoadScene("MenuPrincipal");
     }
+
+    //private void OnMenuCargado(Scene scene, LoadSceneMode mode)
+    //{
+    //    // Desuscribirse para que no se repita
+    //    SceneManager.sceneLoaded -= OnMenuCargado;
+
+    //    if (MenuManager.instance != null)
+    //        MenuManager.instance.InicializarMenu();
+    //}
 }
