@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2ab3a89553bdc48aa53faf2343d548, type: 3}
+  m_Name: Chameleon
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalData
+  nombreAnimal: Chameleon
+  iconoPrincipal:
+    m_AssetGUID: 1e2580d2af7d4fa4ca8c2b9430f28a24
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  listaPuzzles:
+  - imagenPuzzle:
+      m_AssetGUID: 1e2580d2af7d4fa4ca8c2b9430f28a24
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 1e4e637bdb432ec4ea275862c4fcca84
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: d95d59a87d8127e499daba26169f9f0b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 93e08cb59dd5b9b47b73d7497334069b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: d678cc7e01f0f3e469b61bedb0eaf042
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 50a772740ab5d294395b092eb27c0c81
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 64d6085080228aa4b8a09194afaf975b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 680b2bad20168b44da9b9f9743a5311f
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 1ac2b9ffca37c844fbf46f5224f7cb99
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 68eddb5c9ea10c246805a09abe0bd6a8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100

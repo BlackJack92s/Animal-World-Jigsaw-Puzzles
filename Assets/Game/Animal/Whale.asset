@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2ab3a89553bdc48aa53faf2343d548, type: 3}
+  m_Name: Whale
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalData
+  nombreAnimal: Whale
+  iconoPrincipal:
+    m_AssetGUID: a28f0c0e76ed34749b93c9bba9092a33
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  listaPuzzles:
+  - imagenPuzzle:
+      m_AssetGUID: a28f0c0e76ed34749b93c9bba9092a33
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 0c11889edcf41c346af63b8e6d0b1411
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 85e6a80cca7eb4940a3899462d55cdaf
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 11a5d988d961304479501caad79c81d8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 2270553c5e379a847a175afe10ce0bdd
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 534816c4f6e5c3f48a53ac90985aea65
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: b0ca201d29ee43e46af906597611ad12
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: f4e4d4ca54d07884391f0276f8ad9fa8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: a613f061b6bc08345ae80d8c1aaff4f8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 685bd89290decde48a3c8da9da164f51
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cb44eee485b6145be42bff9ec4b91e, type: 3}
+  m_Name: LetraF
+  m_EditorClassIdentifier: Assembly-CSharp::SeccionData
+  letra: 70
+  animalesDeEstaLetra:
+  - {fileID: 11400000, guid: 8486ba753aad43548aa1c9b0221007e2, type: 2}
+  - {fileID: 11400000, guid: 437db642e67246e4fac233db2d9dad99, type: 2}
+  - {fileID: 11400000, guid: 11e28a8be2c4fc34583a008ff0e027b9, type: 2}
+  - {fileID: 11400000, guid: 211437bce61f6684498b84e73bd8c777, type: 2}

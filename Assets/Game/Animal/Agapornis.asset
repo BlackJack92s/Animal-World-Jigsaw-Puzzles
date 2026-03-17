@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2ab3a89553bdc48aa53faf2343d548, type: 3}
+  m_Name: Agapornis
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalData
+  nombreAnimal: Agapornis
+  iconoPrincipal:
+    m_AssetGUID: 9bd6196c8262aab4abec35ce51f1b619
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  listaPuzzles:
+  - imagenPuzzle:
+      m_AssetGUID: 9bd6196c8262aab4abec35ce51f1b619
+      m_SubObjectName: carolina-de-leon-aPyE31lXsNk-unsplash_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: dc3216a2169696a4891fd43aec4e24cf
+      m_SubObjectName: dilip-poddar-5Jc2zxt6UHw-unsplash_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: e3fad88519a995c41acfa0b850711135
+      m_SubObjectName: erwinbosman-bird-10106375_1920_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 67f16ec1baa8c7b4b9722c2557c160bb
+      m_SubObjectName: erwinbosman-lovebirds-10115511_1920_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 7b03528001e9d4d4d96d42dc71104496
+      m_SubObjectName: juliush-lovebirds-4599230_1920_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 5895ae126778dee4dbb55116fc772798
+      m_SubObjectName: manuel-torres-garcia-rjkrnjRRZ7I-unsplash_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 0b4447f9ad8c7de42867f5eb4b6c1874
+      m_SubObjectName: md-abu-nasir-limon-4M8SbXcQFis-unsplash_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 122d6d66d4a1f34459a5c732593d0707
+      m_SubObjectName: roberto-silveira-MxAGK6HYNpk-unsplash_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 929780b2c31d54a438e6a0e6475282b5
+      m_SubObjectName: yoshihiko-yoshida-_eFKoZEAHN0-unsplash_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: e9b4c32b91cf5334493f3b622ce8b4fb
+      m_SubObjectName: yoshihiko-yoshida-aOoun4mIZq8-unsplash_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100

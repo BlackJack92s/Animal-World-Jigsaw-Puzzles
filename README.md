@@ -1,2 +1,2 @@
-# Animal-World-Jigsaw-Puzzles
+# Animal World Jigsaw Puzzles
 

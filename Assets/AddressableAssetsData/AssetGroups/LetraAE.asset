@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LetraAE
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: LetraAE
+  m_GUID: cade57de2574d5348865b5fde16b82c9
+  m_SerializeEntries:
+  - m_GUID: 057137f9398bb204e95fac37ec0a1aa5
+    m_Address: Assets/Sprites/Animals/Emu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07c251e41213c4b40901795800db56fb
+    m_Address: Assets/Sprites/Animals/Alpaca
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09c3ff80bbb5e794298a70e922649e64
+    m_Address: Assets/Sprites/Animals/Bull
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ce5d21bad179304b8b1cbf79ac8c6df
+    m_Address: Assets/Sprites/Animals/Cat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14e99fbeff8829a408e91ae942c8e758
+    m_Address: Assets/Sprites/Animals/Agapornis
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d903a591f444b441977e3066d02d0fb
+    m_Address: Assets/Sprites/Animals/Axolotl
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3beb34e60100cfe46ad8f6e773c63a38
+    m_Address: Assets/Sprites/Animals/Armadillo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a8ac88f8fbcec649bef8d563dac2094
+    m_Address: Assets/Sprites/Animals/Bee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e02c8a49b873e042ad90eb8fd772903
+    m_Address: Assets/Sprites/Animals/Chameleon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 525d35df8c7a36d4c993d36c35955da0
+    m_Address: Assets/Sprites/Animals/Baboon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 531dccb316d56a14abe7385266e7d960
+    m_Address: Assets/Sprites/Animals/Dalmatian
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 607c04ca71e801c46b637267462d3f48
+    m_Address: Assets/Sprites/Animals/Crab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6deb0da350b2c2b4d8ba48b0d4610a91
+    m_Address: Assets/Sprites/Animals/Albatross
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78be4482f0c6c6a49bc2df655d000c92
+    m_Address: Assets/Sprites/Animals/Crocodile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85b5ad77dde04db40ae6379d1093bc1e
+    m_Address: Assets/Sprites/Animals/Deer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87536ff65921cf24889383da5be7c524
+    m_Address: Assets/Sprites/Animals/Dolphin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88677e2d16cdf4942ba1f2f55ea69284
+    m_Address: Assets/Sprites/Animals/Capybara
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d5aa3648cabe304fa0a35d801cd6176
+    m_Address: Assets/Sprites/Animals/Camel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90162f5fb5affeb489fea48b98174992
+    m_Address: Assets/Sprites/Animals/Cheetah
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 924efd5a0fc6d764e9e17bea72d25567
+    m_Address: Assets/Sprites/Animals/Bison
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3cc92698dd22544eb1b52344cce65c8
+    m_Address: Assets/Sprites/Animals/Butterfly
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a778b0d777141ee4aa742f5498ada4be
+    m_Address: Assets/Sprites/Animals/Duck
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a82faaafa2aa17d4ab1c198c0aa23c83
+    m_Address: Assets/Sprites/Animals/Bear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac0487c7237752c40a2df0ac52836b0d
+    m_Address: Assets/Sprites/Animals/Beaver
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b619b30afdb22b646b980befe23e9445
+    m_Address: Assets/Sprites/Animals/Cardinal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7ac6f521ade9b648b361d458c2c6abe
+    m_Address: Assets/Sprites/Animals/Elephant
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c36781f7a6a67d1438b824d29777aab6
+    m_Address: Assets/Sprites/Animals/Anaconda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4ef0c2c570a15c4fb78ea2b6ef5adfe
+    m_Address: Assets/Sprites/Animals/Donkey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3431288f58c318408828a4fe69388b9
+    m_Address: Assets/Sprites/Animals/Eagle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6cc8786987f24246804fe7b3ca26697
+    m_Address: Assets/Sprites/Animals/Badger
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e789c5288566e874da8146c769d85172
+    m_Address: Assets/Sprites/Animals/Dingo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa01ec06bb132b4459455d94f953a95c
+    m_Address: Assets/Sprites/Animals/Echidna
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff47e62062726d94e8b926d56aacf11b
+    m_Address: Assets/Sprites/Animals/Antelope
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4a68f94cbe574bc4388490edf6a03dba, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b655282091ebb534d9f87d04013a670f, type: 2}
+    - {fileID: 11400000, guid: 5890b72ad75dd3947ae105c77c5bb1e2, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cb44eee485b6145be42bff9ec4b91e, type: 3}
+  m_Name: LetraR
+  m_EditorClassIdentifier: Assembly-CSharp::SeccionData
+  letra: 82
+  animalesDeEstaLetra:
+  - {fileID: 11400000, guid: 9617356b17f456c468cb9def9c964d02, type: 2}
+  - {fileID: 11400000, guid: 7323925deabbf2f4ea7c2787e60d5756, type: 2}
+  - {fileID: 11400000, guid: 5d16883c39a77444299d910c82bc6372, type: 2}
+  - {fileID: 11400000, guid: 1dd338294276ba049aa9604f1bc24cc9, type: 2}
+  - {fileID: 11400000, guid: 16713f30855ec6e47954fa8ce600a423, type: 2}
+  - {fileID: 11400000, guid: 04e2fd53da128684492c12425bea06cc, type: 2}

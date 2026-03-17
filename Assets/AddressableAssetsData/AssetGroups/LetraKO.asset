@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LetraKO
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: LetraKO
+  m_GUID: 515bf2d9d8dae584cac56edc5fec2e11
+  m_SerializeEntries:
+  - m_GUID: 0a61ef82df579b84ea094f56ecb94b70
+    m_Address: Assets/Sprites/Animals/Komodo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35649299f9f272f449dfd80c0d0b6aa3
+    m_Address: Assets/Sprites/Animals/Octopus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bcdbff9b493cdd4587e726663b03b0b
+    m_Address: Assets/Sprites/Animals/Owl
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bfa9147b8045fa43bc9903e842a7c73
+    m_Address: Assets/Sprites/Animals/Kookaburra
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e1f2751347eaca41b7ab69ff2f8a98d
+    m_Address: Assets/Sprites/Animals/Moth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 446d68ba4b736a640b010dcfdf986150
+    m_Address: Assets/Sprites/Animals/Orca
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a3af993191c7d44992196b18dfbd065
+    m_Address: Assets/Sprites/Animals/Mouse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dcc25aba204d104883021966a8eed7d
+    m_Address: Assets/Sprites/Animals/Orangutan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dddec632b1769849a790beca3528f70
+    m_Address: Assets/Sprites/Animals/Lion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f1d3feae5e546c4e8c7c7e01c8a4899
+    m_Address: Assets/Sprites/Animals/Kingfisher
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7ecb6d3c6ea9af44ab9a30ec4303dd7
+    m_Address: Assets/Sprites/Animals/Ladybug
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afd79ee8a7ebf6b44a2ed6ea64b22983
+    m_Address: Assets/Sprites/Animals/Kangaroo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1be5370e6e6f7040aafd5ee482566dc
+    m_Address: Assets/Sprites/Animals/Otter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1f80a764afc2f0458bf2f4cc0c87ce3
+    m_Address: Assets/Sprites/Animals/Ostrich
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb50b071a63ba9046a40f31106864f23
+    m_Address: Assets/Sprites/Animals/Meerkat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be61af48e1971fc4c8bca0c5a35b7bab
+    m_Address: Assets/Sprites/Animals/Koala
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4c8d64a569757f4a96316a48df8408c
+    m_Address: Assets/Sprites/Animals/Lynx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c707df74f383bea4ead74bd21fcc730c
+    m_Address: Assets/Sprites/Animals/Lemur
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7939a589e590ef47821cb97f2ca2db3
+    m_Address: Assets/Sprites/Animals/Moose
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4a68f94cbe574bc4388490edf6a03dba, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d11418d98cebf2849a1777f9e4f7c849, type: 2}
+    - {fileID: 11400000, guid: 699851cba1170e447867a2b215a50fdf, type: 2}

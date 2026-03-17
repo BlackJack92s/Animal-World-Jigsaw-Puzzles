@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LetraPT
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: LetraPT
+  m_GUID: a7a44e5e9cf48834abc6b817361c0ea5
+  m_SerializeEntries:
+  - m_GUID: 04700e15bc8f3fd4da18cd98d3d5825e
+    m_Address: Assets/Sprites/Animals/Raccoon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06568accdec5c3849a141e4e7e2d50a6
+    m_Address: Assets/Sprites/Animals/Seahorse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f9ef8685a83fe641988a65b37f09f83
+    m_Address: Assets/Sprites/Animals/Swan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25750e520beee764692d149165af7894
+    m_Address: Assets/Sprites/Animals/Penguin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b5dfe10b6547264da38a331898ed0cf
+    m_Address: Assets/Sprites/Animals/Rhino
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42c11474b0b4616419b103e52c631de9
+    m_Address: Assets/Sprites/Animals/Rabbit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d1adcb3a6e460140b29a0c54cae1916
+    m_Address: Assets/Sprites/Animals/Turtle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a120cb670098c841bd2cc0497a041b9
+    m_Address: Assets/Sprites/Animals/Tiger
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66d954cc55b6a2740bbfc3ddb3405280
+    m_Address: Assets/Sprites/Animals/Raven
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f50876f88e4678458131b7226cfe3d3
+    m_Address: Assets/Sprites/Animals/Robin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95d1a063de441e941b9a8f106f39ebd2
+    m_Address: Assets/Sprites/Animals/Sloth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aa4cb4c895eacc478289b12d98047c0
+    m_Address: Assets/Sprites/Animals/Shark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad7c8e10f7cb9374390cba1845f4e86f
+    m_Address: Assets/Sprites/Animals/Panther
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf514ccf27c11c04a88617f268c7e159
+    m_Address: Assets/Sprites/Animals/Squirrel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5ed2df36b476b745afc428aea038785
+    m_Address: Assets/Sprites/Animals/Quokka
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d61af4d80040de249a53ee8778b28c85
+    m_Address: Assets/Sprites/Animals/Quetzal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7b71756ca5ddbc4a959685560eb4ca9
+    m_Address: Assets/Sprites/Animals/Red Panda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da442cfe308abdd468a0bb24051433b5
+    m_Address: Assets/Sprites/Animals/Quail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f65be74f34553cf4db5fc91dab98f6b8
+    m_Address: Assets/Sprites/Animals/Toucan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdbedd34f97f43e4d963d2949e2804ee
+    m_Address: Assets/Sprites/Animals/Panda
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4a68f94cbe574bc4388490edf6a03dba, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d45d9e6eebd61da46a676cf370fe2f38, type: 2}
+    - {fileID: 11400000, guid: bcdaad3d20199fe4d83029916dd10386, type: 2}

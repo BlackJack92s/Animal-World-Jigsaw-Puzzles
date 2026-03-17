@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Puzzle
+  - PuzzleAdv
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Base
+    uniqueID: 328711423
+    locked: 0
+  - name: Puzzle
+    uniqueID: 589012083
+    locked: 0
+  - name: Pieces
+    uniqueID: 137529823
+    locked: 0
+  - name: creator
+    uniqueID: 3501029999
+    locked: 0
+  - name: UI
+    uniqueID: 3687560573
+    locked: 0
+  m_RenderingLayers:
+  - Default

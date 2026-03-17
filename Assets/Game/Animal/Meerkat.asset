@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2ab3a89553bdc48aa53faf2343d548, type: 3}
+  m_Name: Meerkat
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalData
+  nombreAnimal: Meerkat
+  iconoPrincipal:
+    m_AssetGUID: 6dc0687c2c4ded8459421fb5e12a5590
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  listaPuzzles:
+  - imagenPuzzle:
+      m_AssetGUID: 6dc0687c2c4ded8459421fb5e12a5590
+      m_SubObjectName: 0_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 09e5330c80e80e34499330419a260724
+      m_SubObjectName: 1_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 5fce1936894f97b48aaf46006dd5c1a7
+      m_SubObjectName: 2_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: ea425343af1aded4aa2aad41fbad6dac
+      m_SubObjectName: 3_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: c86f1ec600cfbd44082cf4dfca2caa57
+      m_SubObjectName: 4_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 4b74d69bbac88af4da8cc4328fdc9d45
+      m_SubObjectName: 5_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 7e5d58a4162198b45bd321c41b5df3ca
+      m_SubObjectName: 6_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: a542cb5acc2a8dc4c9778e626a64ac44
+      m_SubObjectName: 7_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: 26c17038666f05949aef4147c9b859eb
+      m_SubObjectName: 8_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
+  - imagenPuzzle:
+      m_AssetGUID: d5f65dadde784d9418f489b7bc85dff2
+      m_SubObjectName: 9_0
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 1
+    precioMonedas: 100
