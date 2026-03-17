@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 9a7c65f8632bacc47965a64392ef0c09
   m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 0956ec9462b4b938f3626cd2d1ae3411
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
       - m_Id: 4432731160fb23b49bba3acb7f8c1fc8
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 507899b203e4ca945bb42d77c6f25903
-        m_Value: 'https://github.com/BlackJack92s/animalworld-assets/tree/09f34a6c272211ff8adb569550f0557c10fcbc0f/android/[BuildTarget]'
+        m_Value: 'https://blackjack92s.github.io/Animal-World-Jigsaw-Puzzles/ServerData/[BuildTarget]'
       - m_Id: 7672c51a1b7f1634580082688930088e
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: ba140164d1a8fd741b722d1da4b4313d
