@@ -15,10 +15,11 @@ MonoBehaviour:
   nombreAnimal: Agapornis
   iconoPrincipal:
     m_AssetGUID: 9bd6196c8262aab4abec35ce51f1b619
-    m_SubObjectName: 
-    m_SubObjectType: 
+    m_SubObjectName: carolina-de-leon-aPyE31lXsNk-unsplash_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
     m_SubObjectGUID: 
-    m_EditorAssetChanged: 0
+    m_EditorAssetChanged: 1
   listaPuzzles:
   - imagenPuzzle:
       m_AssetGUID: 9bd6196c8262aab4abec35ce51f1b619
