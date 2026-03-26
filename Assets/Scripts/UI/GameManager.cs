@@ -8,23 +8,26 @@ public class GameManager : MonoBehaviour
     public int monedasActuales;
     public TextMeshProUGUI txtMonedas;
 
-    private int ultimaGanancia;
+    [SerializeField] private int ultimaGanancia;
     void Awake()
     {
         // Configuración de Singleton
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
         }
 
+        
+    }
+    void Start()
+    {
         CargarDatos();
     }
-
     // Método para intentar comprar un animal
     public bool TryUnlockPuzzle(string nombreAnimal, int indicePuzzle, int precio)
     {
@@ -73,9 +76,9 @@ public class GameManager : MonoBehaviour
     {
         UnityAdsManager.Instance.ShowRewardedAd(UnityAdsManager.AdRewardType.Reward100);
     } 
-    public void VerAnuncioDuplicar(int cantidadAGanar)
+    public void VerAnuncioDuplicar()
     {
-        ultimaGanancia = cantidadAGanar;
+        //ultimaGanancia = cantidadAGanar;
         UnityAdsManager.Instance.ShowRewardedAd(UnityAdsManager.AdRewardType.DoubleReward);
     } 
     public void OtorgarRecompensa(UnityAdsManager.AdRewardType tipo)
@@ -85,7 +88,8 @@ public class GameManager : MonoBehaviour
             GanarMonedas(100);
         }
         else if (tipo == UnityAdsManager.AdRewardType.DoubleReward)
-        { 
+        {
+            ultimaGanancia = DatosPartida.Instance.monedasAct;
             GanarMonedas(ultimaGanancia);
         }
     }

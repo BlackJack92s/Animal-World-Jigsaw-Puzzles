@@ -37,13 +37,17 @@ public class DragNDropAdv : MonoBehaviour
             {
                 if (hit.transform.CompareTag("PuzzleAdv"))
                 {
-                    if (!hit.transform.GetComponent<PiezaScript>().InRightPosition)
+                    PiezaScript scriptPieza = hit.transform.GetComponent<PiezaScript>();
+
+                    if (!scriptPieza.InRightPosition)
                     {
                         SelectedPiece = hit.transform.gameObject;
-                        SelectedPiece.GetComponent<PiezaScript>().Selected = true;
+                        scriptPieza.Selected = true;
                         AudioSource.PlayClipAtPoint(clkpieceaudio, transform.position, 0.1f);
-                        //SelectedPiece.GetComponent<SortingGroup>().sortingOrder = OIL;
-                        OIL++;
+
+                        // ESTO REEMPLAZA AL SORTING ORDER:
+                        // Mueve el objeto al final de la lista en la jerarquía para que se vea al frente de todo.
+                        SelectedPiece.transform.SetAsLastSibling();
                     }
                 }
             }
@@ -87,13 +91,18 @@ public class DragNDropAdv : MonoBehaviour
     }
     public void DuplicarMonedas()
     {
+        
         if (DatosPartida.Instance.dificultadEstado)
         {
-            GameManager.Instance.VerAnuncioDuplicar(monedasEasy * 2);
+            int monedas = monedasEasy * 2;
+            DatosPartida.Instance.monedasAct = monedas;
+            GameManager.Instance.VerAnuncioDuplicar();
         }
         else
         {
-            GameManager.Instance.VerAnuncioDuplicar(monedasHard * 2);
+            int monedas = monedasHard * 2;
+            DatosPartida.Instance.monedasAct = monedas;
+            GameManager.Instance.VerAnuncioDuplicar();
         }
         SceneManager.LoadScene("MenuPrincipal");
     }

@@ -10,7 +10,7 @@ public class DatosPartida : MonoBehaviour
     public Sprite puzzleSeleccionado;
     public bool dificultadEstado;
     public AsyncOperationHandle<Sprite> handleActivo;
-
+    public int monedasAct;
     void Awake()
     {
         if (Instance != null)
@@ -41,6 +41,7 @@ public class DatosPartida : MonoBehaviour
     //}
     public void ElegirDificultad(bool estado)
     {
+        //monedasAct = GameManager.Instance.monedasActuales;
         dificultadEstado = estado;
         SceneManager.LoadScene("NivelPuzzle");
     }
