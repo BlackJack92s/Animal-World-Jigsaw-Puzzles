@@ -42,7 +42,7 @@ public class DragNDropAdv : MonoBehaviour
                         SelectedPiece = hit.transform.gameObject;
                         SelectedPiece.GetComponent<PiezaScript>().Selected = true;
                         AudioSource.PlayClipAtPoint(clkpieceaudio, transform.position, 0.1f);
-                        SelectedPiece.GetComponent<SortingGroup>().sortingOrder = OIL;
+                        //SelectedPiece.GetComponent<SortingGroup>().sortingOrder = OIL;
                         OIL++;
                     }
                 }

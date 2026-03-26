@@ -60,13 +60,9 @@ public class PuzzleGeneratorScript : MonoBehaviour
                 Image img = childTransform.GetComponent<Image>();
 
                 if (img != null)
-                {
-                    // Asignamos el sprite del puzzle
-                    img.sprite = puzzle;
-
-                    // OPCIONAL: Si quieres que la imagen mantenga sus proporciones 
-                    // originales dentro de la máscara del UI
-                    img.preserveAspect = true;
+                { 
+                    img.sprite = puzzle; 
+                    //img.preserveAspect = true;
                 }
                 //SpriteRenderer sr = childTransform.GetComponent<SpriteRenderer>();
                 //if (sr != null)
