@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.UI;
 public class PuzzleGeneratorScript : MonoBehaviour
 {
     public GameObject[] piecePrefab;
@@ -57,11 +57,22 @@ public class PuzzleGeneratorScript : MonoBehaviour
             Transform childTransform = piece.transform.Find("PuzzleAdv");
             if (childTransform != null)
             {
-                SpriteRenderer sr = childTransform.GetComponent<SpriteRenderer>();
-                if (sr != null)
+                Image img = childTransform.GetComponent<Image>();
+
+                if (img != null)
                 {
-                    sr.sprite = puzzle;
+                    // Asignamos el sprite del puzzle
+                    img.sprite = puzzle;
+
+                    // OPCIONAL: Si quieres que la imagen mantenga sus proporciones 
+                    // originales dentro de la máscara del UI
+                    img.preserveAspect = true;
                 }
+                //SpriteRenderer sr = childTransform.GetComponent<SpriteRenderer>();
+                //if (sr != null)
+                //{
+                //    sr.sprite = puzzle;
+                //}
             }
         }
     }
