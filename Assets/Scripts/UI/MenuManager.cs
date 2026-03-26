@@ -76,7 +76,11 @@ public class MenuManager : MonoBehaviour
     }
 
     public void CambiarSeccion(SeccionData nuevaSeccion)
-    { 
+    {
+        foreach (Transform hijo in gridContainer)
+        {
+            Destroy(hijo.gameObject);
+        }
         foreach (AnimalData animal in nuevaSeccion.animalesDeEstaLetra)
         {
             GameObject btnObj = Instantiate(animalButtonPrefab, gridContainer);

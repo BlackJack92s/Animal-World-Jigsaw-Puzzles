@@ -82,12 +82,21 @@ public class DragNDropAdv : MonoBehaviour
         else
         {
             GameManager.Instance.GanarMonedas(monedasHard);
-        }
-
-       // SceneManager.sceneLoaded += OnMenuCargado;
+        } 
         SceneManager.LoadScene("MenuPrincipal");
     }
-
+    public void DuplicarMonedas()
+    {
+        if (DatosPartida.Instance.dificultadEstado)
+        {
+            GameManager.Instance.VerAnuncioDuplicar(monedasEasy * 2);
+        }
+        else
+        {
+            GameManager.Instance.VerAnuncioDuplicar(monedasHard * 2);
+        }
+        SceneManager.LoadScene("MenuPrincipal");
+    }
     //private void OnMenuCargado(Scene scene, LoadSceneMode mode)
     //{
     //    // Desuscribirse para que no se repita

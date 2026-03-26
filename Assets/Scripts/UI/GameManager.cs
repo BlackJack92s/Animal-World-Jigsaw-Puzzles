@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public int monedasActuales;
     public TextMeshProUGUI txtMonedas;
 
+    private int ultimaGanancia;
     void Awake()
     {
         // Configuración de Singleton
@@ -42,6 +43,7 @@ public class GameManager : MonoBehaviour
 
     public void GanarMonedas(int cantidad)
     {
+        monedasActuales = PlayerPrefs.GetInt("TotalMonedas", 0);
         monedasActuales += cantidad;
         GuardarDatos();
     }
@@ -61,6 +63,30 @@ public class GameManager : MonoBehaviour
         if (txtMonedas != null)
         {
             txtMonedas.text = "Coins: " + monedasActuales;
+        }
+    }
+    public void verAnuncio()
+    {
+        UnityAdsManager.Instance.ShowRewardedAd();
+    }
+    public void VerAnuncio100()
+    {
+        UnityAdsManager.Instance.ShowRewardedAd(UnityAdsManager.AdRewardType.Reward100);
+    } 
+    public void VerAnuncioDuplicar(int cantidadAGanar)
+    {
+        ultimaGanancia = cantidadAGanar;
+        UnityAdsManager.Instance.ShowRewardedAd(UnityAdsManager.AdRewardType.DoubleReward);
+    } 
+    public void OtorgarRecompensa(UnityAdsManager.AdRewardType tipo)
+    {
+        if (tipo == UnityAdsManager.AdRewardType.Reward100)
+        {
+            GanarMonedas(100);
+        }
+        else if (tipo == UnityAdsManager.AdRewardType.DoubleReward)
+        { 
+            GanarMonedas(ultimaGanancia);
         }
     }
 }
