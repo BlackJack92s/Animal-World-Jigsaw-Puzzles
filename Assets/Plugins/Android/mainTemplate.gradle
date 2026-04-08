@@ -5,9 +5,10 @@ apply from: '../shared/common.gradle'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-// Android Resolver Dependencies Start
+    // Android Resolver Dependencies Start
     implementation 'com.unity3d.ads:unity-ads:[4.16.3,4.17[' // Packages/com.unity.ads/Editor/Source/Dependencies.xml:7
-// Android Resolver Dependencies End
+    // Android Resolver Dependencies End
+    implementation 'androidx.fragment:fragment:1.5.4'
 **DEPS**}
 
 // Android Resolver Exclusions Start
