@@ -70,24 +70,24 @@ public class GameManager : MonoBehaviour
     }
     public void verAnuncio()
     {
-        UnityAdsManager.Instance.ShowRewardedAd();
+        LevelPlayAdsManager.Instance.ShowRewardedAd();
     }
     public void VerAnuncio100()
     {
-        UnityAdsManager.Instance.ShowRewardedAd(UnityAdsManager.AdRewardType.Reward100);
+        LevelPlayAdsManager.Instance.ShowRewardedAd(LevelPlayAdsManager.AdRewardType.Reward100);
     } 
     public void VerAnuncioDuplicar()
     {
         //ultimaGanancia = cantidadAGanar;
-        UnityAdsManager.Instance.ShowRewardedAd(UnityAdsManager.AdRewardType.DoubleReward);
+        LevelPlayAdsManager.Instance.ShowRewardedAd(LevelPlayAdsManager.AdRewardType.DoubleReward);
     } 
-    public void OtorgarRecompensa(UnityAdsManager.AdRewardType tipo)
+    public void OtorgarRecompensa(LevelPlayAdsManager.AdRewardType tipo)
     {
-        if (tipo == UnityAdsManager.AdRewardType.Reward100)
+        if (tipo == LevelPlayAdsManager.AdRewardType.Reward100)
         {
             GanarMonedas(100);
         }
-        else if (tipo == UnityAdsManager.AdRewardType.DoubleReward)
+        else if (tipo == LevelPlayAdsManager.AdRewardType.DoubleReward)
         {
             ultimaGanancia = DatosPartida.Instance.monedasAct;
             GanarMonedas(ultimaGanancia);

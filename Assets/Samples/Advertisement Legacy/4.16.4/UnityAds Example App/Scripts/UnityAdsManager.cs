@@ -148,7 +148,7 @@ public class UnityAdsManager : MonoBehaviour, IUnityAdsInitializationListener, I
         if (placementId == REWARDED_VIDEO_PLACEMENT && showCompletionState == UnityAdsShowCompletionState.COMPLETED)
         {
             // En lugar de manejar PlayerPrefs aquí, llamamos al GameManager
-            GameManager.Instance.OtorgarRecompensa(currentRewardType);
+            //GameManager.Instance.OtorgarRecompensa(currentRewardType);
 
             // Recargamos el anuncio para la próxima vez
             LoadRewardedAd();

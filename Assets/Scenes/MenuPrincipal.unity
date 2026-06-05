@@ -1120,7 +1120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 321303579}
-  - component: {fileID: 321303578}
+  - component: {fileID: 321303580}
   m_Layer: 0
   m_Name: UnityAdsManager
   m_TagString: Untagged
@@ -1128,21 +1128,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &321303578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321303577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44e2d06c55f0544d9acacf7d14716aed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UnityAdsManager
-  androidGameId: 6073535
-  iOSGameId: 6073534
-  bannerPosition: 1
 --- !u!4 &321303579
 Transform:
   m_ObjectHideFlags: 0
@@ -1158,6 +1143,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &321303580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321303577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3773c3e4839fbd74294a263cfc755a10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelPlayAdsManager
+  androidAppKey: 269cb3445
+  iOSAppKey: 
+  adnroidBannerUnitId: u02cms7oa772ehky
+  iosBannerUnitId: 
+  adnroidInterstitialUnitId: dolg475osglrx08q
+  iosInterstitialUnitId: 
+  adnroidRewardedUnitId: rnkagtiad7duihmj
+  iosRewardedUnitId: 
 --- !u!1 &431021384
 GameObject:
   m_ObjectHideFlags: 0
@@ -4326,6 +4331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   monedasActuales: 100
   txtMonedas: {fileID: 1268030064}
+  ultimaGanancia: 0
 --- !u!1 &1979941673
 GameObject:
   m_ObjectHideFlags: 0
@@ -4432,6 +4438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DatosPartida
   puzzleSeleccionado: {fileID: 0}
   dificultadEstado: 0
+  monedasAct: 0
 --- !u!4 &1988723914
 Transform:
   m_ObjectHideFlags: 0
